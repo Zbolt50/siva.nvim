@@ -63,6 +63,9 @@ local highlights = {
 	Error = { fg = c.normal, bg = c.background },
 
 	Todo = { fg = c.bright3, bg = c.background },
+
+	NeoTreeDirectoryIcon = { fg = c.bright3, bg = c.background },
+	NeoTreeDirectoryName = { fg = c.bright3, bg = c.background },
 }
 
 return highlights
