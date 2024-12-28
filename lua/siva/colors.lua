@@ -37,18 +37,18 @@ local highlights = {
 	PmenuSel = { fg = c.white, bg = c.bright3 },
 	Whitespace = { fg = c.bright2, bg = c.background },
 
-	Comment = { fg = c.bright2, bg = c.background },
+	Comment = { fg = c.normal, bg = c.background },
 	String = { fg = c.bright2, bg = c.background },
 	Character = { fg = c.bright2, bg = c.background },
 	Number = { fg = c.bright3, bg = c.background },
 	Float = { fg = c.bright3, bg = c.background },
-	Boolean = { fg = c.normal, bg = c.background },
+	Boolean = { fg = c.bright2, bg = c.background },
 
 	Identifier = { fg = c.bright3, bg = c.background },
 	Function = { fg = c.bright2, bg = c.background },
 
 	Statement = { fg = c.normal, bg = c.background },
-	Operator = { fg = c.bright2, bg = c.background },
+	Operator = { fg = c.bright1, bg = c.background },
 
 	PreProc = { fg = c.normal, bg = c.background },
 
