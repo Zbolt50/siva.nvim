@@ -1,12 +1,12 @@
 -- color palette
 local c = {
 	bright3 = "#ce2029", -- primary color
-	bright2 = "#f08080", -- secondary
+	bright2 = "#f5a5a5", -- secondary
 	bright1 = "#e06666", -- tertiary
 	normal = "#d22f32",
 	dark1 = "#b1274e",
-	dark2 = "#931b46",
-	dark3 = "#631033",
+	dark2 = "#541213",
+	dark3 = "#6d2728",
 	dark4 = "#800000",
 	background = "#101010",
 
