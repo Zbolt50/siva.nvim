@@ -1,71 +1,75 @@
 -- color palette
 local c = {
-	bright3 = "#ce2029", -- primary color
-	bright2 = "#f5a5a5", -- secondary
-	bright1 = "#e06666", -- tertiary
 	normal = "#d22f32",
-	dark1 = "#b1274e",
-	dark2 = "#541213",
-	dark3 = "#6d2728",
-	dark4 = "#800000",
 	background = "#101010",
-
 	white = "#ffffff",
-	fire_engine = "cd2029",
+	fire_engine = "#ce2029",
 	maroon = "#800000",
+	darker_maroon = "#400000",
+	maroonish = "#a62b2b",
+	salmon_light = "#f5a5a5",
+	salmon = "#e06666",
+	crimson = "#dc143c",
 }
 
 local highlights = {
-	Normal = { fg = c.bright3, bg = c.background },
-	NormalFloat = { fg = c.bright3, bg = c.background },
+	Normal = { fg = c.fire_engine, bg = c.background },
+	NormalFloat = { fg = c.fire_engine, bg = c.background },
 	EndOfBuffer = { fg = c.background, bg = c.background },
-	LineNr = { fg = c.bright1, bg = c.background },
-	LineNrAbove = { fg = c.bright1, bg = c.background },
-	LineNrBelow = { fg = c.bright1, bg = c.background },
-	SignColumn = { fg = c.bright1, bg = c.background },
-	Cursor = { fg = c.bright1, bg = c.bright3 },
-	lCursor = { fg = c.bright1, bg = c.bright3 },
-	DiffAdd = { fg = c.bright1, bg = c.background },
-	DiffChange = { fg = c.bright1, bg = c.background },
-	DiffDelete = { fg = c.bright1, bg = c.background },
-	DiffText = { fg = c.bright1, bg = c.background },
+	LineNr = { fg = c.salmon_light, bg = c.background },
+	LineNrAbove = { fg = c.salmon_light, bg = c.background },
+	LineNrBelow = { fg = c.salmon_light, bg = c.background },
+	SignColumn = { fg = c.salmon_light, bg = c.background },
+	Cursor = { fg = c.salmon_light, bg = c.fire_engine },
+	lCursor = { fg = c.salmon_light, bg = c.fire_engine },
+	DiffAdd = { fg = c.salmon_light, bg = c.background },
+	DiffChange = { fg = c.salmon_light, bg = c.background },
+	DiffDelete = { fg = c.salmon_light, bg = c.background },
+	DiffText = { fg = c.salmon_light, bg = c.background },
 	ErrorMsg = { fg = c.normal, bg = c.background },
-	IncSearch = { fg = c.dark2, bg = c.bright3 },
-	Search = { fg = c.dark2, bg = c.bright3 },
-	Substitute = { fg = c.dark2, bg = c.bright3 },
-	Pmenu = { fg = c.bright3, bg = c.background },
-	PmenuSel = { fg = c.white, bg = c.bright3 },
-	Whitespace = { fg = c.bright2, bg = c.background },
+	IncSearch = { fg = c.white, bg = c.fire_engine },
+	Search = { fg = c.white, bg = c.maroon },
+	Substitute = { fg = c.white, bg = c.maroon },
+	-- floating menu colors (Ex: CMP snippets)
+	Pmenu = { fg = c.fire_engine, bg = c.background },
+	PmenuSel = { fg = c.white, bg = c.fire_engine },
+	Whitespace = { fg = c.salmon_light, bg = c.background },
 
-	Comment = { fg = c.normal, bg = c.background },
-	String = { fg = c.bright2, bg = c.background },
-	Character = { fg = c.bright2, bg = c.background },
-	Number = { fg = c.bright3, bg = c.background },
-	Float = { fg = c.bright3, bg = c.background },
-	Boolean = { fg = c.bright2, bg = c.background },
+	Variable = { fg = c.salmon_light, bg = c.background },
+	property = { fg = c.salmon_light, bg = c.background },
+	Comment = { fg = c.salmon_light, bg = c.background },
+	String = { fg = c.salmon, bg = c.background },
+	Character = { fg = c.salmon_light, bg = c.background },
+	Number = { fg = c.fire_engine, bg = c.background },
+	Float = { fg = c.fire_engine, bg = c.background },
+	Boolean = { fg = c.salmon_light, bg = c.background },
 
-	Identifier = { fg = c.bright3, bg = c.background },
-	Function = { fg = c.bright2, bg = c.background },
-
+	Identifier = { fg = c.fire_engine, bg = c.background },
+	Function = { fg = c.maroon, bg = c.background },
 	Statement = { fg = c.normal, bg = c.background },
-	Operator = { fg = c.bright1, bg = c.background },
+	Operator = { fg = c.salmon_light, bg = c.background },
+	Type = { fg = c.salmon_light, bg = c.background },
 
 	PreProc = { fg = c.normal, bg = c.background },
-
-	Type = { fg = c.bright1, bg = c.background },
-
-	Special = { fg = c.bright2, bg = c.background },
-
-	Underlined = { fg = c.bright1, bg = c.background },
-
+	Special = { fg = c.salmon_light, bg = c.background },
+	Underlined = { fg = c.salmon_light, bg = c.background },
 	Ignore = { fg = c.dark1, bg = c.background },
-
 	Error = { fg = c.normal, bg = c.background },
+	Todo = { fg = c.fire_engine, bg = c.background },
 
-	Todo = { fg = c.bright3, bg = c.background },
+	-- C++ Stuff
+	Keyword = { fg = c.maroonish, bg = c.background },
 
-	NeoTreeDirectoryIcon = { fg = c.bright3, bg = c.background },
-	NeoTreeDirectoryName = { fg = c.bright3, bg = c.background },
+	-- Plugin Specific Highlights
+
+	-- NeoTree
+	NeoTreeDirectoryIcon = { fg = c.fire_engine, bg = c.background },
+	NeoTreeDirectoryName = { fg = c.fire_engine, bg = c.background },
+
+	-- Snacks Nvim
+	SnacksDashboardHeader = { fg = c.fire_engine, bg = c.background },
+
+	-- Snacks Nvim
 }
 
 return highlights
