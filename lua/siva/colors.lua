@@ -56,8 +56,6 @@ local highlights = {
 	Ignore = { fg = c.dark1, bg = c.background },
 	Error = { fg = c.normal, bg = c.background },
 	Todo = { fg = c.fire_engine, bg = c.background },
-
-	-- C++ Stuff
 	Keyword = { fg = c.maroonish, bg = c.background },
 
 	-- Plugin Specific Highlights
@@ -65,7 +63,10 @@ local highlights = {
 	-- NeoTree
 	NeoTreeDirectoryIcon = { fg = c.fire_engine, bg = c.background },
 	NeoTreeDirectoryName = { fg = c.fire_engine, bg = c.background },
-
+	NeoTreeGitUnstaged = { fg = c.maroonish, bg = c.background },
+	NeoTreeGitStaged = { fg = c.fire_engine, bg = c.background },
+	NeoTreeGitModified = { fg = c.maroon, bg = c.background },
+	NeoTreeGitUntracked = { fg = c.maroon, bg = c.background },
 	-- Snacks Nvim
 	SnacksDashboardHeader = { fg = c.fire_engine, bg = c.background },
 
