@@ -1,4 +1,5 @@
 M = {}
+
 local highlights = require("siva.colors")
 function M.load()
 	vim.cmd("hi clear")
