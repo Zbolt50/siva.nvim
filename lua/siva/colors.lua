@@ -11,23 +11,9 @@ local c = {
 	maroon =        "#800000",
 	darker_maroon = "#400000",
 	--Neutral/Other
--- TEST:
--- TODO:
--- NOTE:
--- WARN:
--- HACK:
 	white =         "#ffffff",
 	background =    "#101010",
     light_grey =    "#CCCCCC",
-	-- stylua: ignore start
--- [[    error = { "DiagnosticError", "ErrorMsg", "#DC2626" },
-    warning = { "DiagnosticWarn", "WarningMsg" },
-    info = { "DiagnosticInfo", "#2563EB" },
-    hint = { "DiagnosticHint", "#10B981" },
-    default = { "Identifier", "#7C3AED" },
-    test = { "Identifier", "#FF00FF" }
-	-- ]]
-,
 }
 
 local s = {
