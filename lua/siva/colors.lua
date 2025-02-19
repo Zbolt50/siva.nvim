@@ -174,6 +174,7 @@ local s = {
 	["@tag.attribute"] = { fg = "#ce2029" }, -- fire_engine
 	["@statement"] = { fg = "#ce2029" }, -- fire_engine
 	["@error"] = { fg = "#a62b2b" }, -- error
+	["@lsp.type.comment.c"] = { fg = none },
 }
 
 return s
